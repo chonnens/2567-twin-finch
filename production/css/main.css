@@ -25,11 +25,19 @@ html, body {
 .col-1-1 {
 	width: 100%;
 }
+
+.col-10-12 {
+width:.83333%;	
+}
 .col-1-2 {
 	width: 50%;
 }
 .col-1-3 {
 	width: 33.333%;
+}
+
+.col-2-3 {
+width:66.65%;	
 }
 [class*='col-'] {
 	float: left;
