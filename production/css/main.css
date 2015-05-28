@@ -28,7 +28,6 @@ html, body {
 
 .col-10-12 {
 	width:83.333%;	
-
 }
 .col-1-2 {
 	width: 50%;
@@ -73,6 +72,76 @@ html, body {
 }
 .col-1-12 {
 	width: 8.33%;
+}
+
+h1, #rating {
+color:#fbf8ee;	
+font-size:1.75em;
+padding-top:20px;
+}
+
+h2 {
+font-family: 'Roboto Slab', serif;
+color:#0e5f6d;
+text-align:center;
+font-size:4.0625em;
+}
+
+* {
+font-family:'open sans', sans-serif;	
+color:#4f2b21;
+text-align:left;
+}
+
+
+.highlight {
+font-size:1.75em;
+text-align:Center;	
+}
+
+h3 {
+font-family: 'Roboto Slab', serif;
+color:#fbf8ee;
+font-size:3.4375em;
+
+}
+
+.margin-top {
+padding-top:60px;	
+}
+
+ul{
+list-style-type:none;
+}
+
+
+li {
+	display:inline-block;	
+} 
+
+
+nav ul li {
+font-size:1.9375em;
+padding-left:45px;	
+} 
+
+nav a {
+	font-family: 'Roboto Slab', serif;
+	color:#fbf8ee;
+}
+
+nav ul li:first-child {
+    padding:0;
+}
+
+nav {
+background-color:#0e5f6d;	
+padding:8px 0;
+}
+
+#bg-header {
+	background-image:url(../../../honnens-web-twinfinch/production/imgs/hero-image.jpg);
+	padding:50px 0;
 }
 
 @media screen and (max-width:768px) {
