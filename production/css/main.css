@@ -25,6 +25,10 @@ html, body {
 	padding-bottom: 20px;
 }
 
+.row-no-pad {
+width:100%;	
+}
+
 .row:after {
 	content: "";
 	display: table;
@@ -116,6 +120,9 @@ width:73%;
 
 /* Typography */
 
+p {
+line-height:1.8rem;	
+}
 
 * {
 	font-family: 'open sans', sans-serif;
@@ -124,17 +131,19 @@ width:73%;
 }
 body {
 	background-color: #fbf8ee;
-	font-size: 13pt;
+	font-size: 12pt;
 }
 h1, #rating {
 	font-size: 1.75rem;
 	padding-top: 20px;
 }
 h2 {
-	font-size: 4.0625rem;
+	font-size: 3.5rem;
+	margin-bottom:0;
+	padding-bottom:0;
 }
 h3 {
-	font-size: 3.4375rem;
+	font-size: 3rem;
 	margin: 15px 0 0 25px;
 	line-height: 3rem;
 	display: inline-block;
@@ -155,12 +164,12 @@ padding-right:50px;
 
 .highlight {
 	font-size: 1.3rem;
-	line-height: 2rem;
+	line-height: 1.9rem;
 }
 
 h4 {
-	font-size: 2.5rem;
-	
+	font-size: 2.2rem;
+	margin-bottom:20px;
 }
 
 
@@ -181,6 +190,16 @@ h3, h1, #rating, .cream {
 
 h4, h2 {
 	color: #0e5f6d;
+}
+
+nav a {
+border-bottom: medium solid #0e5f6d;
+
+
+}
+
+nav a:hover {
+border-bottom: medium solid #fbf8ee;
 }
 
 
@@ -251,6 +270,7 @@ a {
 	padding: 10px 150px;
 	border-radius: 4px;
 	display: inline-block;
+	
 }
 .tips-button {
 	background-color: #fbf8ee;
