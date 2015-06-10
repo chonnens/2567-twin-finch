@@ -8,7 +8,7 @@ $(document).ready(function() {
 	$(window).scroll(function() {    
     var scroll = $(window).scrollTop();
 
-    if (scroll >= 485) {
+    if (scroll >= 570) {
         $(".header").addClass("fix-search");
     } else {
         $(".header").removeClass("fix-search");
